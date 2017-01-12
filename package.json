@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "rap-horn": "index.js"
+    "npm-rap-install": "index.js"
   },
   "main": "index.js",
   "author": "Bryce Osterhaus",
