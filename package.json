@@ -1,0 +1,14 @@
+{
+  "name": "npm-rap-install",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "rap-horn": "index.js"
+  },
+  "main": "index.js",
+  "author": "Bryce Osterhaus",
+  "license": "ISC",
+  "dependencies": {
+    "play-sound": "^1.1.1"
+  }
+}
