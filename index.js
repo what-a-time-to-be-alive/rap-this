@@ -4,6 +4,7 @@ const player = require('play-sound')(opts = {})
 const exec = require('child_process').exec;
 
 const run = function(cmd){
+	console.log('Running \'npm install\'...');
 	const child = exec(cmd, null, function (error, stdout, stderr) {
 		if (stderr !== null) {
 			console.log('' + stderr);
@@ -26,6 +27,7 @@ const run = function(cmd){
 			() => player.play(__dirname + '/horn.mp3', function(err){}),
 			300
 		);
+		console.log('\'npm install\' finished!');
 	});
 };
 
