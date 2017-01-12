@@ -1,9 +1,9 @@
 {
-  "name": "npm-rap-install",
+  "name": "rap-this",
   "version": "1.0.3",
   "description": "",
   "bin": {
-    "npm-rap-install": "index.js"
+    "rap": "index.js"
   },
   "main": "index.js",
   "author": "Bryce Osterhaus",

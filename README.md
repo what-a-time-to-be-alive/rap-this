@@ -1,5 +1,10 @@
 ### Install
-`npm i -g npm-rap-install`
+`npm i -g rap-this`
 
 ### Uses
-Whenever you need to run `npm install`, just run `npm-rap-install` instead
+When you need a reminder when a process finished
+
+`rap [command]`
+
+example:
+`rap npm install`
