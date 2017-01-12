@@ -15,15 +15,15 @@ const run = function(cmd){
 			console.log('' + error);
 		}
 
-		player.play('horn.mp3', function(err){})
+		player.play(__dirname + '/horn.mp3', function(err){})
 
 		setTimeout(
-			() => player.play('horn.mp3', function(err){}),
+			() => player.play(__dirname + '/horn.mp3', function(err){}),
 			150
 		);
 
 		setTimeout(
-			() => player.play('horn.mp3', function(err){}),
+			() => player.play(__dirname + '/horn.mp3', function(err){}),
 			300
 		);
 	});
